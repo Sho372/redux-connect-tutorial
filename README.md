@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# Simple React Todo App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+このプロジェクトはReactとReduxを使用したシンプルなTodoアプリケーションです。
 
-## Available Scripts
+## 必要条件
 
-In the project directory, you can run:
+- Node.js (v14.0.0以上)
+- npm (v6.0.0以上)
 
-### `npm start`
+## セットアップ
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+リポジトリをクローンした後、以下の手順でアプリケーションをセットアップしてください。
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 依存関係のインストール
 
-### `npm test`
+```bash
+npm install
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 開発サーバーの起動
 
-### `npm run build`
+```bash
+npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+このコマンドを実行すると、開発モードでアプリが起動します。  
+ブラウザで [http://localhost:3000](http://localhost:3000) を開くとアプリケーションが表示されます。
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+コードを変更すると、ページは自動的にリロードされます。  
+また、コンソールにはlintエラーも表示されます。
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### ビルド
 
-### `npm run eject`
+```bash
+npm run build
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+このコマンドは、本番用のアプリケーションを `build` フォルダにビルドします。  
+Reactは本番モードで正しくバンドルされ、最適化されたビルドが生成されます。
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+ビルドはミニファイされ、ファイル名にはハッシュが含まれます。  
+これでアプリケーションをデプロイする準備が整いました！
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 機能
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Todoの追加
+- Todoの完了/未完了の切り替え
+- フィルタリング（全て、完了済み、未完了）
