@@ -1,0 +1,25 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Reduxアーキテクチャ
+
+このプロジェクトはReduxを使用して状態管理を行っています。
+
+## Reduxの主要ファイル
+- [redux/store.js](mdc:src/redux/store.js) - Reduxストアの設定
+- [redux/actions.js](mdc:src/redux/actions.js) - アクションクリエーター
+- [redux/actionTypes.js](mdc:src/redux/actionTypes.js) - アクションタイプの定数
+- [redux/selectors.js](mdc:src/redux/selectors.js) - ステートセレクター
+
+## リデューサー
+- [redux/reducers/index.js](mdc:src/redux/reducers/index.js) - ルートリデューサー
+- [redux/reducers/todos.js](mdc:src/redux/reducers/todos.js) - Todo管理のリデューサー
+- [redux/reducers/visibilityFilter.js](mdc:src/redux/reducers/visibilityFilter.js) - フィルター状態のリデューサー
+
+## 状態管理フロー
+1. コンポーネントはアクションをディスパッチする
+2. リデューサーが状態を更新する
+3. セレクターを通じて状態が取得される
+4. コンポーネントが再レンダリングされる

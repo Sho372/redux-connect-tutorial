@@ -1,0 +1,19 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# プロジェクト概要
+
+このプロジェクトはReduxを使用したReactのTodoアプリです。
+
+## 主要ファイル
+- エントリーポイント: [src/index.js](mdc:src/index.js)
+- メインアプリ: [src/App.js](mdc:src/App.js)
+- Todoアプリコンポーネント: [src/TodoApp.js](mdc:src/TodoApp.js)
+
+## プロジェクト構造
+- `src/components` - 再利用可能なReactコンポーネント
+- `src/redux` - Reduxストア、アクション、リデューサー
+- `src/redux/reducers` - Reduxのリデューサー
+- `public` - 静的ファイル

@@ -1,0 +1,16 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# 定数とスタイル
+
+## 定数
+- [constants.js](mdc:src/constants.js) - アプリ全体で使用される定数
+
+## スタイル
+- [App.css](mdc:src/App.css) - Appコンポーネントのスタイル
+- [index.css](mdc:src/index.css) - グローバルスタイル
+- [styles.css](mdc:src/styles.css) - Todoアプリ用のスタイル
+
+スタイルはコンポーネント単位で分割され、必要に応じて適用されています。

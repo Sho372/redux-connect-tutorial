@@ -1,0 +1,19 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# コンポーネント構造
+
+このプロジェクトでは以下のReactコンポーネントを使用しています：
+
+## Todoアプリコンポーネント
+- [TodoApp.js](mdc:src/TodoApp.js) - メインのTodoアプリコンテナコンポーネント
+
+## UIコンポーネント
+- [components/AddTodo.js](mdc:src/components/AddTodo.js) - 新しいTodoを追加するフォーム
+- [components/Todo.js](mdc:src/components/Todo.js) - 個々のTodoアイテム
+- [components/TodoList.js](mdc:src/components/TodoList.js) - Todoアイテムのリスト
+- [components/VisibilityFilters.js](mdc:src/components/VisibilityFilters.js) - フィルターUI
+
+各コンポーネントは特定の機能を担当し、必要に応じてReduxストアと接続されています。
